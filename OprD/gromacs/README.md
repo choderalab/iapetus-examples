@@ -11,6 +11,10 @@ Three residues in a plane to restrain: to prevent reorientation or measure heigh
 * `ASP 97 CA`
 * `SER 184 CA`
 
+Center axis of pore (x,z) around `ALA 128 CA`.
+Top of pore around (y-max) `SER 226 CA`.
+Bottom of pore around (y-min) `VAL 88 CA`.
+
 ## Manifest
 
 * `arg/` - arginine (compound 2 from [1])
