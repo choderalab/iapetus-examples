@@ -4,6 +4,13 @@ Note that these simulations are in explicit solvent with no membrane.
 
 Files created by Camilo Velez-Vega, Entasis Therapeutics.
 
+The pore axis is roughly aligned with the y-axis, with a corner of the water box at the origin.
+
+Three residues in a plane to restrain: to prevent reorientation or measure height along pore:
+* `GLY 342 CA`
+* `ASP 97 CA`
+* `SER 184 CA`
+
 ## Manifest
 
 * `arg/` - arginine (compound 2 from [1])
