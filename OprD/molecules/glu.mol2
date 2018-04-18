@@ -1,0 +1,48 @@
+@<TRIPOS>MOLECULE
+GLU_toSMD
+18   17    1
+PROTEIN
+USER_CHARGES
+
+
+@<TRIPOS>DICT
+PROTEIN PROTEIN
+@<TRIPOS>ATOM
+      1 N          35.9819  -33.4338    8.1004 N.am      1 LIG         0.2475 BACKBONE|DICT|DIRECT
+      2 CA         35.2851  -33.3047    9.3902 C.3       1 LIG         0.0625 BACKBONE|DICT|DIRECT
+      3 C          35.1035  -34.7151    9.9715 C.2       1 LIG         0.4450 BACKBONE|DICT|DIRECT
+      4 O          34.4325  -35.5377    9.3080 O.2       1 LIG        -0.7225 BACKBONE|DICT|DIRECT
+      5 CB         33.9406  -32.5655    9.2050 C.3       1 LIG        -0.1200 DICT
+      6 CG         33.1916  -32.2770   10.5244 C.3       1 LIG        -0.2200 DICT
+      7 CD         31.9663  -31.3713   10.3590 C.2       1 LIG         0.7000 DICT
+      8 OE1        31.5328  -31.1629    9.2038 O.co2     1 LIG        -0.8000 DICT
+      9 OE2        31.4768  -30.8996   11.4081 O.co2     1 LIG        -0.8000 DICT
+     10 O10        35.6694  -34.9582   11.0595 O.co2     1 LIG        -0.7225 DICT
+     11 H2         36.1250  -32.5204    7.6954 H         1 LIG         0.2100 DICT
+     12 H3         36.8708  -33.8885    8.2503 H         1 LIG         0.2100 DICT
+     13 HA         35.9268  -32.7157   10.0480 H         1 LIG         0.0600 DICT
+     14 HB3        34.1376  -31.6187    8.6993 H         1 LIG         0.0600 DICT
+     15 HB2        33.2910  -33.1306    8.5339 H         1 LIG         0.0600 DICT
+     16 HG3        32.8637  -33.2087   10.9862 H         1 LIG         0.0600 DICT
+     17 HG2        33.8698  -31.7994   11.2326 H         1 LIG         0.0600 DICT
+     18 H18        35.4165  -34.0001    7.4840 H         1 LIG         0.2100 DICT
+@<TRIPOS>BOND
+     1    1    2 1    BACKBONE|DICT
+     2    1   11 1    DICT
+     3    1   12 1    DICT
+     4    1   18 1    DICT
+     5    2    3 1    BACKBONE|DICT
+     6    2    5 1    DICT
+     7    2   13 1    DICT
+     8    3    4 2    BACKBONE|DICT
+     9    3   10 1    DICT
+    10    5    6 1    DICT
+    11    5   14 1    DICT
+    12    5   15 1    DICT
+    13    6    7 1    DICT
+    14    6   16 1    DICT
+    15    6   17 1    DICT
+    16    7    8 2    DICT
+    17    7    9 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 LIG         2 RESIDUE           1 A     GLU     1 ROOT    
