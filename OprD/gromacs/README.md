@@ -26,6 +26,13 @@ Bottom of pore around (y-min) `VAL 88 CA`.
 * `comp7` - compound 7 from [1]
 * `comp8` - compound 8 from [1]
 
+## Running
+
+Here's an example of how to run [`iapetus`](http://github.com/choderalab/iapetus):
+```bash
+iapetus --gromacs mero --ligseq 423
+```
+
 ## References
 
 [1] Isabella VM et al. Toward the Rational Design of Carbapenem Uptake in Pseudomonas aeruginosa. Chemistry & Biology 22:535, 2015. https://doi.org/10.1016/j.chembiol.2015.03.018
