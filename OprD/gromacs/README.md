@@ -21,8 +21,8 @@ Bottom of pore around (y-min) `VAL 88 CA`.
 * `glu/` - glutamate (not the same as compound 3 [glycine-glutamate] reported in [1])
 * `his_posit` - histidine (positively charged, doubly protonated)
 * `his_neut` - histidine (neutral, protonated at epsilon carbon)
-* `imi/` - imipenem (compound 5 in [1] except stereochemistry inverted at C)
-* `mero/` - meropenem (compound 4 in [1] except stereochemistry inverted at C15)
+* `imi/` - imipenem (compound 5 from [1])
+* `mero/` - meropenem (compound 4 from [1])
 * `comp7` - compound 7 from [1]
 * `comp8` - compound 8 from [1]
 
