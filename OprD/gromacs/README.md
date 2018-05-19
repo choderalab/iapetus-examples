@@ -23,14 +23,17 @@ Bottom of pore around (y-min) `VAL 88 CA`.
 * `his_neut` - histidine (neutral, protonated at epsilon carbon)
 * `imi/` - imipenem (compound 5 from [1])
 * `mero/` - meropenem (compound 4 from [1])
-* `comp7` - compound 7 from [1]
-* `comp8` - compound 8 from [1]
+* `comp7/` - compound 7 from [1]
+* `comp8/` - compound 8 from [1]
+* `comp7_nowat/` - compound 7 from [1] without solvent (for testing only)
+* `comp8_nowat/` - compound 8 from [1] without solvent (for testing only)
+
 
 ## Running
 
 Here's an example of how to run [`iapetus`](http://github.com/choderalab/iapetus):
 ```bash
-iapetus --gromacs mero --ligseq 423
+iapetus --gromacs comp7_nowat --ligseq 423 --output output.nc --niterations 100
 ```
 
 ## References

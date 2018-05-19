@@ -2,8 +2,8 @@
 
 ## Manifest
 
-* `gromacs/` - systems parameterized for gromacs (`.gro`, `.top`, `.pdb`)
-* `molecules/` - Tripos format `.mol2` files for molecules of interest
+* [`gromacs/`](https://github.com/choderalab/iapetus-examples/tree/master/OprD/gromacs) - systems parameterized for gromacs (`.gro`, `.top`, `.pdb`)
+* [`molecules/`](https://github.com/choderalab/iapetus-examples/tree/master/OprD/molecules) - Tripos format `.mol2` files for molecules of interesta
 
 ## References
 

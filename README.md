@@ -4,4 +4,4 @@ See the [`iapetus`](http://github.com/choderalab/iapetus) code for installation 
 
 ## Examples
 
-* `OprD/` - permeation of OprD by published small molecules
+* [`OprD/`](https://github.com/choderalab/iapetus-examples/tree/master/OprD) - permeation of OprD by published small molecules
