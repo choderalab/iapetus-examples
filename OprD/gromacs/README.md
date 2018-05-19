@@ -33,7 +33,7 @@ Bottom of pore around (y-min) `VAL 88 CA`.
 
 Here's an example of how to run [`iapetus`](http://github.com/choderalab/iapetus):
 ```bash
-iapetus --gromacs comp7_nowat --ligseq 423 --output output.nc --niterations 100
+iapetus --gromacs comp7_nowat --ligseq 423 --output output.nc --niterations 100 --verbose
 ```
 
 ## FAQ
