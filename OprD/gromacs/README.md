@@ -36,6 +36,15 @@ Here's an example of how to run [`iapetus`](http://github.com/choderalab/iapetus
 iapetus --gromacs comp7_nowat --ligseq 423 --output output.nc --niterations 100
 ```
 
+## FAQ
+
+*Q:*  What do I do if I receive an error message like this?
+```
+Exception: CustomCentroidBondForce requires a device that supports 64 bit atomic operations
+```
+*A:* OpenMM is attempting to use a a device (such as an integrated laptop GPU) that doesn't support 64-bit atomic operations.
+Either use a more powerful GPU, or if that is not possible, specify the CPU platform by adding the `--platform CPU` flag.
+
 ## References
 
 [1] Isabella VM et al. Toward the Rational Design of Carbapenem Uptake in Pseudomonas aeruginosa. Chemistry & Biology 22:535, 2015. https://doi.org/10.1016/j.chembiol.2015.03.018
