@@ -3,7 +3,7 @@
 #BSUB -W 5:59
 #
 # Set output file
-#BSUB -o  iapetus.%J.log
+#BSUB -o  iapetus.%J.%I.log
 #
 # Specify node group
 #BSUB -m "ls-gpu lt-gpu lp-gpu lg-gpu"
