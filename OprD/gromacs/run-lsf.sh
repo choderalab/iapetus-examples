@@ -13,9 +13,9 @@
 #BSUB -n 1 -gpu "num=1:j_exclusive=yes:mode=shared" -R "rusage[mem=12]"
 #
 # job name (default = name of script file)
-#BSUB -J "iapetus[0-9]"
+#BSUB -J "iapetus[1-10]"
 
-jobnames="arg comp7 comp7_nowat comp8 comp8_nowat glu his_neut his_posit imi mero"
+jobnames="unused arg comp7 comp7_nowat comp8 comp8_nowat glu his_neut his_posit imi mero"
 arr=($jobnames)
 jobname=${arr[$LSB_JOBINDEX]}
 echo $jobname
