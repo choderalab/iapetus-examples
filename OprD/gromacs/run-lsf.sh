@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Set walltime limit
-#BSUB -W 5:59
+#BSUB -W 48:00
 #
 # Set output file
 #BSUB -o  iapetus.%J.%I.log
